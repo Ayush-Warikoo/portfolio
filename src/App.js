@@ -1,33 +1,22 @@
-import React, { Component } from 'react';
-import ReactGA from 'react-ga';
-import $ from 'jquery';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
-import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
 
-class App extends Component {
+function App() {
+  const [resumeData, setResumeData] = useState({});
 
-  constructor(props){
-    super(props);
-    this.state = {
-      foo: 'bar',
-      resumeData: {}
-    };
-
-  }
-
-  getResumeData(){
+  function getResumeData() {
     $.ajax({
       url:'/resumeData.json',
       dataType:'json',
       cache: false,
       success: function(data){
-        this.setState({resumeData: data});
-      }.bind(this),
+        setResumeData(data);
+      },
       error: function(xhr, status, err){
         console.log(err);
         alert(err);
@@ -35,21 +24,20 @@ class App extends Component {
     });
   }
 
-  componentDidMount(){
-    this.getResumeData();
-  }
+  useEffect(() => {
+    getResumeData();
+  }, [])
 
-  render() {
-    return (
-      <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
-        <Footer data={this.state.resumeData.main}/>
+
+  return (
+    <div className="App">
+        <Header data={resumeData.main}/>
+        <About data={resumeData.main}/>
+        <Resume data={resumeData.resume}/>
+        <Portfolio data={resumeData.portfolio}/>
+        <Footer data={resumeData.main}/>
       </div>
-    );
-  }
+  )
 }
 
 export default App;
