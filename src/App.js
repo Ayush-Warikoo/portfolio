@@ -1,41 +1,24 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './App.css';
-import Header from './Components/Header';
+import Header from './Components/Header/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
-import Portfolio from './Components/Portfolio';
+import Projects from './Components/Projects';
 
 function App() {
-  const [resumeData, setResumeData] = useState({});
-
-  function getResumeData() {
-    $.ajax({
-      url:'/resumeData.json',
-      dataType:'json',
-      cache: false,
-      success: function(data){
-        setResumeData(data);
-      },
-      error: function(xhr, status, err){
-        console.log(err);
-        alert(err);
-      }
-    });
-  }
-
-  useEffect(() => {
-    getResumeData();
-  }, [])
-
-
   return (
     <div className="App">
-        <Header data={resumeData.main}/>
-        <About data={resumeData.main}/>
-        <Resume data={resumeData.resume}/>
-        <Portfolio data={resumeData.portfolio}/>
-        <Footer data={resumeData.main}/>
+        <Header/>
+        <section id="header-about">
+          <div className='header-to-about'/>
+        </section>
+        <About/>
+        <div className='about-to-resume'/>
+        <Resume/>
+        <div className='resume-to-projects'/>
+        <Projects/>
+        <Footer />
       </div>
   )
 }
