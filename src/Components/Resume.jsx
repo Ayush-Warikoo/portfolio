@@ -35,6 +35,7 @@ function Resume() {
         <h1>
           <span>Education</span>
         </h1>
+
       </div>
 
       <div className={`nine columns main-col ${educationInView ? "slide-in-right" : "pre-animation"}`}>
@@ -42,11 +43,18 @@ function Resume() {
           <div className="twelve columns">
             {educationList.map((education) => (
               <div key={education.school}>
-                <h3>{education.school}</h3>
-                <p className="info">
-                  {education.degree} <span>&bull;</span>
-                  <em className="date">{education.graduated}</em>
-                </p>
+                <div className="profile">
+                  <img
+                    src={education.imageSrc}
+                  />
+                  <div>
+                    <h3>{education.school}</h3>
+                    <p className="info">
+                      {education.degree} <span>&bull;</span>
+                      <em>{education.graduated}</em>
+                    </p>
+                  </div>
+                </div>
                 <p>
                   {education.description}
                   {education.courses}
@@ -67,11 +75,18 @@ function Resume() {
       <div className={`nine columns main-col ${workInView ? "slide-in-right" : "pre-animation"}`}>
         {workList.map((work) => (
           <div key={work.company}>
-            <h3>{work.company}</h3>
-            <p className="info">
-              {work.title} <span>&bull;</span>
-              <em className="date">{work.years}</em>
-            </p>
+            <div className="profile">
+              <img
+                src={work.imageSrc}
+              />
+              <div>
+                <h3>{work.company}</h3>
+                <p className="info">
+                  {work.title} <span>&bull;</span>
+                  <em>{work.years}</em>
+                </p>
+              </div>
+            </div>
             <p>
               {work.description}
               <br></br>

@@ -10,12 +10,14 @@ const educationList = [
   {
     "school": "University of Waterloo",
     "degree": "Bachelors in Computer Science",
+    "imageSrc": "images/resume/UW.png",
     "graduated": "Sept 2019 - August 2024",
     "courses": "Object-Oriented Development, Algorithms, Data Structures, Databases, Networks, Operating Systems, Machine Learning, Statistics, Computer Architecture, Distributed Computing"
   },
   {
     "school": "Wilfrid Laurier University",
     "degree": "Bachelors in Business Administration",
+    "imageSrc": "images/resume/WLU.jpeg",
     "graduated": "Sept 2019 - August 2024",
     "courses": "Finanial Management, Microeconomics, Macroeconomics, Managerial Accounting, Options Futures & Swaps, Business Law, Operations, Business Policy"
   }
@@ -27,6 +29,7 @@ const workList = [
     "title": "Software Developer Engineer Intern",
     "location": "Toronto, ON",
     "years": "May 2023 - Aug 2023",
+    "imageSrc": "images/resume/aws.jpeg",
     "description": "Engineer on the RDS Region Build team",
     "tech": "Java, JavaScript, Spring, React, Redux, AWS (DynamoDB, SWF, CloudWatch, SNS)"
   },
@@ -35,6 +38,7 @@ const workList = [
     "title": "Full-Stack Engineer Intern",
     "location": "Mountain View, CA",
     "years": "Jan 2023 - Apr 2023",
+    "imageSrc": "images/resume/zanbato.png",
     "description": "Full-stack development of private equity trading platform",
     "tech": "Python, JavaScript, Django, React, Redux, PostgreSQL, Celery, Jenkins, Jest"
   },
@@ -43,6 +47,7 @@ const workList = [
     "title": "Software Engineer Intern",
     "location": "San Francisco, CA",
     "years": "Jan 2022 - Apr 2022",
+    "imageSrc": "images/resume/nextroll_logo.png",
     "description": "Built and optimized front-end products and tooling",
     "tech": "JavaScript, Python, React, Redux, Node.js, AWS S3, Webpack, Buildkite",
   },
@@ -51,6 +56,7 @@ const workList = [
     "title": "Software Automation Engineer Intern",
     "location": "San Francisco, CA",
     "years": "Jan 2021 - Apr 2021",
+    "imageSrc": "images/resume/autodesk.jpeg",
     "description": "Constructing automation and quality assurance tooling",
     "tech": "JavaScript, Python, React, Flask, Node.js, PostgreSQL, Jenkins, Cypress",
   },
@@ -59,6 +65,7 @@ const workList = [
     "title": "Full-Stack Developer Intern",
     "location": "Mississauga, ON",
     "years": "June 2020 - August 2020",
+    "imageSrc": "images/resume/uptake.jpeg",
     "description": "Full-stack development of a cloud-based ticket management application",
     "tech": "TypeScript, Docker, NestJS, Node.js, MS SQL Server, TypeORM, Jest, Bash",
   }
