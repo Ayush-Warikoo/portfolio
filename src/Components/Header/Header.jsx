@@ -40,7 +40,7 @@ function Header() {
 
 			<div className="banner">
 				<div className="banner-text">
-					<h1 className="responsive-headline">Ayush Warikoo</h1>
+					<h1>Ayush Warikoo</h1>
 					<HeaderTypewriterText />
 					<hr />
 					<ul className="social">

@@ -1,3 +1,3 @@
-# portfolio
+# Portfolio
 
-Web portfolio
+Personal portfolio accessible via ayushw.net or ayushw.com

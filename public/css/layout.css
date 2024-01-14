@@ -102,8 +102,6 @@ header {
   width: 100%;
   height: 100vh;
   z-index: 0; /* Crutial to appear in background and allow for interactivity */
-  /* background-color: #001220; */
-  /* background-color: black; */
 }
 
 /* vertically center banner section */
@@ -117,32 +115,27 @@ header .banner {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
-   width: 70%;
    padding-bottom: 30px;
    text-align: center;
 }
 
-header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 120px/1.1em 'opensans-bold', sans-serif;
+   font: 100px/1.1em 'opensans-bold', sans-serif;
    color: #fff; /* #11ABB0 */
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   width: 80%;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
    position: relative;
    z-index: 1;
    
 }
 header .banner-text span {
-   font: 28px/1.9em 'American Typewriter', serif; /* 'Gill Sans' 'American Typewriter'*/
+   font: 28px/1.9em 'American Typewriter', 'Gill Sans', serif;
    color: #11ABB0; /* #11ABB0 */
    margin: 0 auto;
-   width: 80%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
    position: relative;
    z-index: 1;
-   /* font-weight: lighter; */
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -383,11 +376,6 @@ ul#nav li a:hover {
    margin-left: 2px;
    color: #6E7881;
 }
-/* #resume .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
-   margin-top: 6px;
-   color: #6E7881;
-} */
 
 /*----------------------------------------------*/
 /*	Skill Bars
