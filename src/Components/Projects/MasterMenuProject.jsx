@@ -11,7 +11,7 @@ function MasterMenuProject() {
 			<div className={`master-menu-info ${inView ? "slide-in-left" : "pre-animation"}`}>
 				<div className="title">
 					<h2>Master Menu</h2>
-					<img src="images/projects/react2.png" alt="React" />
+					<img src="images/projects/react.png" alt="React" />
 				</div>
 				<h3>Menu Management Web Application</h3>
 				<p>
@@ -54,10 +54,10 @@ function MasterMenuProject() {
 			<div className={`master-menu-image ${inView ? "slide-in-right" : "pre-animation"}`}>
 				<div className="images">
 					<div className="back-image">
-						<img src="images/projects/MasterMenu1.png" />
+						<img src="images/projects/MasterMenu_ui.png" />
 					</div>
 					<div className="fore-image">
-						<img src="images/projects/MasterMenu.jpg" />
+						<img src="images/projects/MasterMenu_design.jpg" />
 					</div>
 				</div>
 			</div>

@@ -1,17 +1,15 @@
 function getAge(birthdate) {
-  const birthDate = new Date(birthdate);
-  const today = new Date();
+	const birthDate = new Date(birthdate);
+	const today = new Date();
 
-  let age = today.getFullYear() - birthDate.getFullYear();
-  const m = today.getMonth() - birthDate.getMonth();
+	let age = today.getFullYear() - birthDate.getFullYear();
+	const m = today.getMonth() - birthDate.getMonth();
 
-  if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-    age--;
-  }
+	if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+		age--;
+	}
 
-  return age;
+	return age;
 }
 
-export {
-  getAge,
-}
+export { getAge };

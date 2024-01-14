@@ -36,8 +36,8 @@ function About() {
 						JavaScript, Python and Java; though I’m passionate about software
 						development as a whole. Previously I've completed SWE internships at Amazon
 						(AWS), Zanbato, NextRoll and Autodesk. I like to approach problems by
-						thinking about what would provide the most value, with a strong emphasis on
-						performance and user experience. Overall, I'm looking for an opportunity to
+						thinking about what would generate the most value, with a strong emphasis on
+						performance. Overall, I'm looking for an opportunity to
 						contribute towards something impactful alongside talented engineers. Feel
 						free to reach out, I would be happy to discuss my expertise in greater
 						detail!

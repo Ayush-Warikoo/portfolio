@@ -17,7 +17,7 @@ function ChessPlusPlusProject() {
 			<div className={`right-info ${inView ? "slide-in-right" : "pre-animation"}`}>
 				<div className="title">
 					<h2>Chess++</h2>
-					<img src="images/projects/django2.webp" alt="Django" />
+					<img src="images/projects/django.webp" alt="Django" />
 				</div>
 				<h3>Multiplayer Chess Web Application</h3>
 				<p>

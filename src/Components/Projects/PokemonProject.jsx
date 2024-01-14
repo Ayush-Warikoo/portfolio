@@ -26,7 +26,7 @@ function PokemonProject() {
 				<h3> Game Recreation Using Java Animation Library </h3>
 				<p>
 					A Pokémon-like game I implemented using object-oriented programming in Java and
-					animation library, Processing, as my first venture into game development. Users
+					animation library, Processing, as my first venture into game development. Players
 					may capture and battle with pokemon while following the game storyline. The
 					application leverages the ControlP5 and Minim libraries for the user interface
 					and game audio respectively.
