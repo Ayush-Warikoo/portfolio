@@ -52,7 +52,7 @@ function About() {
 												<Icon fontSize="large" />
 											</span>
 											<span className="label"> {label}:</span>
-											<span className="text"> &nbsp;{text}</span>
+											<span className="text"> {text}</span>
 										</li>
 									))}
 								</ul>

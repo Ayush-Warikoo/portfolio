@@ -11,7 +11,7 @@ const educationList = [
 		school: "University of Waterloo",
 		degree: "Bachelors in Computer Science",
 		imageSrc: "images/resume/UW.png",
-		graduated: "Sept 2019 - August 2024",
+		years: "Sept 2019 - Aug 2024",
 		courses:
 			"Object-Oriented Development, Algorithms, Data Structures, Databases, Networks, Operating Systems, Machine Learning, Statistics, Computer Architecture, Distributed Computing",
 	},
@@ -19,7 +19,7 @@ const educationList = [
 		school: "Wilfrid Laurier University",
 		degree: "Bachelors in Business Administration",
 		imageSrc: "images/resume/WLU.jpeg",
-		graduated: "Sept 2019 - August 2024",
+		years: "Sept 2019 - Aug 2024",
 		courses:
 			"Finanial Management, Microeconomics, Macroeconomics, Managerial Accounting, Options Futures & Swaps, Business Law, Operations, Business Policy",
 	},
@@ -66,7 +66,7 @@ const workList = [
 		company: "Uptake",
 		title: "Full-Stack Developer Intern",
 		location: "Mississauga, ON",
-		years: "June 2020 - August 2020",
+		years: "June 2020 - Aug 2020",
 		imageSrc: "images/resume/uptake.jpeg",
 		description: "Full-stack development of a cloud-based ticket management application",
 		tech: "TypeScript, Docker, NestJS, Node.js, MS SQL Server, TypeORM, Jest, Bash",

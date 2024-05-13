@@ -8,7 +8,7 @@ function MasterMenuProject() {
 	});
 	return (
 		<div ref={ref} className="projects-item">
-			<div className={`master-menu-info ${inView ? "slide-in-left" : "pre-animation"}`}>
+			<div className={`main-col master-menu-info ${inView ? "slide-in-left" : "pre-animation"}`}>
 				<div className="title">
 					<h2>Master Menu</h2>
 					<img src="images/projects/react.png" alt="React" />

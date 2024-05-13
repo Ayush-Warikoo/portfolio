@@ -172,7 +172,17 @@
    //    return false;
    // });
 
+  $('#show-nav').click(function() {
+      $('#nav').slideDown(); // Use slideDown for a smooth opening effect
+      $(this).hide();            // Hide the show button
+      $('#hide-nav').show();     // Show the hide button
+  });
 
+  $('#hide-nav').click(function() {
+      $('#nav').slideUp();  // Use slideUp for a smooth closing effect
+      $(this).hide();            // Hide the hide button
+      $('#show-nav').show();     // Show the show button
+  });
 });
 
 

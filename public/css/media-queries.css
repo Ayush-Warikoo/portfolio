@@ -49,11 +49,6 @@
 
    /* About Section
    ------------------------------------------------------------------- */
-   #about .profile-pic {
-      width: 114px;
-      height: 114px;
-      margin-left: 12px;
-   }
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
 
@@ -106,16 +101,16 @@
       width: auto;
       position: fixed;
       top: 0;
-      right: 0;
+      left: 0;
    }
    #nav-wrap > a {
-	   width: 48px;
+	  width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #CC5200;
+		background-color: #11ABB0;
 		position: relative;
       border: none;
-      float: right;
+      float: left;
 
       font: 0/0 a;
       text-shadow: none;
@@ -123,7 +118,7 @@
 
       position: relative;
       top: 0px;
-      right: 30px;
+      left: 0px;
    }
 
 	#nav-wrap > a:before,
@@ -143,26 +138,12 @@
 	   display: block;
 	}
 
-   /* hide menu panel */
-   #nav-wrap ul#nav {
-      height: auto;
-		display: none;
-      clear: both;
-      width: auto; 
-      float: right;     
-
-      position: relative;
-      top: 12px;
-      right: 0;
-   }
-
    /* display menu panels */
-	#nav-wrap:target > ul#nav	{
-	   display: block;
-      padding: 20px 20px 20px 20px;
+	#nav-wrap ul#nav	{
+      padding: 10px 20px 10px 20px;
       background: #1f2024;
-      margin: 0 30px;
       clear: both;
+      display:none;
    }
 
    ul#nav li {
@@ -182,8 +163,7 @@
       margin: 12px 0; 
       line-height: 16px; /* reset line-height from 48px */
       border: none;
-   }  
-
+   }
 
    /* Header Styles
    -------------------------------------------------------------------- */
@@ -215,7 +195,9 @@
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   #about .profile-pic {
+    margin: 0px auto 40px auto;
+   }
    #about .download .button {
       width: 100%;
       text-align: center;
@@ -233,7 +215,12 @@
    }
    #resume h1 { letter-spacing: 3px; }
    #resume .main-col { padding-right: 30px; }
-   #resume h3, #resume .info { text-align: center; }
+   #resume .info span {
+      display: none;
+   }
+   #resume .info em {
+      display: block;
+   }
       
    .bars { width: 100%; }
 
@@ -256,6 +243,38 @@
    /* ----------------------------------------------------------------- */
    #projctes-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
+
+   /* Convert projects into column and reverse order as needed to have title and text before image */
+   #projects .projects-item {
+    display: flex;
+    flex-direction: column;
+   }
+   #projects .right-info {
+    order: 1;
+   }
+   #projects .chess-plus-plus-image {
+    order: 2;
+   }
+   #projects .pokemon-image {
+    order: 2;
+   }
+
+   #projects .master-menu-image {
+      margin-top: 40px;
+   }
+   #projects h1 {
+    padding-top: 0;
+    text-align: center;
+    letter-spacing: 3px;
+   }
+
+   .projects-item .master-menu-info, .projects-item .hydra-info {
+    margin-right: 0px;
+   }
+
+  .projects-item .right-info {
+    margin-left: 0px;
+   }
 
 
    /* Testimonials Section

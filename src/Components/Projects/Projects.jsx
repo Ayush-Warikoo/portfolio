@@ -8,11 +8,13 @@ function Projects() {
 	return (
 		<section id="projects">
 			<div className="row">
-				<div className="twelve columns collapsed">
+				<div className="twelve columns">
 					<div id="projects-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-						<h1>
-							<span>Projects</span>
-						</h1>
+            <div className="header-col">
+              <h1>
+                <span>Projects</span>
+              </h1>
+            </div>
 						<MasterMenuProject />
 						<hr />
 						<ChessPlusPlusProject />

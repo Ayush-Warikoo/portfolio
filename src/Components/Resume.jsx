@@ -57,7 +57,7 @@ function Resume() {
 											<h3>{education.school}</h3>
 											<p className="info">
 												{education.degree} <span>&bull;</span>
-												<em>{education.graduated}</em>
+												<em>{education.years}</em>
 											</p>
 										</div>
 									</div>

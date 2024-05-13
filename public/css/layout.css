@@ -127,6 +127,7 @@ header .banner-text h1 {
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
    position: relative;
    z-index: 1;
+   padding: 0 20px;
    
 }
 header .banner-text span {
@@ -213,7 +214,6 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
-
 ul#nav {
    min-height: 48px;
    width: auto;
@@ -292,7 +292,6 @@ ul#nav li a:hover {
 
 #about li {
   display: flex;
-  align-items: center;
 }
 
 #about li .icon {
@@ -303,11 +302,17 @@ ul#nav li a:hover {
 #about li .label {
   color: #fff;
   font-weight: bold;
+  padding-top: 2px;
 }
 
 #about li span {
   color: #c5c1c1;
   font: 28px/1.9em;
+}
+
+#about li .text {
+  padding-left: 5px;
+  padding-top: 2px;
 }
 
 #abo
@@ -488,6 +493,10 @@ ul#nav li a:hover {
   border-color: rgba(0, 0, 0, 0.1);
 }
 
+#projects .header-col {
+  width: 100%;
+}
+
 #projects h1 {
   font: 18px/24px 'opensans-bold', sans-serif;
   text-transform: uppercase;
@@ -557,7 +566,7 @@ ul#nav li a:hover {
 .projects-item .master-menu-info {
   flex: 1;
   text-align: left;
-  margin-right: 70px;
+  margin-right: 60px;
 }
 
 .projects-item .master-menu-image {
@@ -598,7 +607,7 @@ ul#nav li a:hover {
 .projects-item .chess-plus-plus-image {
   flex: 1;
   text-align: center;
-  margin-left: -30px;
+  margin-left: -10px;
   margin-top: 10px;
 }
 
@@ -636,7 +645,7 @@ ul#nav li a:hover {
 .projects-item .hydra-image .image-wrapper {
   transform-style: preserve-3d;
   position: relative;
-  transform: rotateY(-20deg) rotateX(10deg) translateZ(50px);
+  transform: rotateY(-20deg) rotateX(10deg) translateZ(-10px);
   margin-top: 50px;
 }
 
@@ -646,6 +655,7 @@ ul#nav li a:hover {
   border-radius: 10px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
   transform: translateZ(80px);
+  scale: 1.15;
 }
 
 /* Pokemon Project */
