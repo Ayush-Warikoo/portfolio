@@ -75,7 +75,7 @@ const workList = [
 
 const languages = [
 	{
-		name: "JavaScript/TypeScript",
+		name: "JavaScript / TypeScript",
 		level: "95%",
 	},
 	{
@@ -87,11 +87,11 @@ const languages = [
 		level: "80%",
 	},
 	{
-		name: "C/C++",
+		name: "C / C++",
 		level: "75%",
 	},
 	{
-		name: "HTML/CSS",
+		name: "HTML / CSS",
 		level: "85%",
 	},
 ];

@@ -382,6 +382,23 @@
    header .social { font-size: 20px;}
    header .social li { margin: 0 6px; }
 
+   /* About Section
+   -------------------------------------------------------------------- */
+   #about .row .row {
+      font-size: 3.4vw;
+   }
+
+   /* Resume Section
+   -------------------------------------------------------------------- */
+
+   #resume .skill h3 {
+    font-size: 5.5vw;
+   }
+
+   #resume .bars li em {
+    font-size: 3.4vw;
+   }
+
    /* footer
    ------------------------------------------------------------------------ */
 
