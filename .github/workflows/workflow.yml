@@ -3,9 +3,10 @@ on:
   push:
     paths-ignore:
       - "README.md"
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
+  workflow_dispatch: # This allows manual triggers
 
 jobs:
   build:
