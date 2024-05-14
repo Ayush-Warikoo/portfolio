@@ -241,6 +241,12 @@
 
    /* Projects Section
    /* ----------------------------------------------------------------- */
+   #projects h1 {
+    padding-top: 0;
+    text-align: center;
+    letter-spacing: 3px;
+   }
+
    #projctes-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
 
@@ -262,11 +268,6 @@
    #projects .master-menu-image {
       margin-top: 40px;
    }
-   #projects h1 {
-    padding-top: 0;
-    text-align: center;
-    letter-spacing: 3px;
-   }
 
    .projects-item .master-menu-info, .projects-item .hydra-info {
     margin-right: 0px;
@@ -274,8 +275,8 @@
 
   .projects-item .right-info {
     margin-left: 0px;
+    padding: 0px;
    }
-
 
    /* Testimonials Section
    ----------------------------------------------------------------------- */

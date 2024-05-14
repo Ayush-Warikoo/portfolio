@@ -485,6 +485,8 @@ ul#nav li a:hover {
    background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
+   max-width: 100%;
+   overflow-x: hidden;
 }
 
 #projects hr {
