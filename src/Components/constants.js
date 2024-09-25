@@ -1,6 +1,6 @@
 const titles = [
-	"UWaterloo CS & BBA Student",
 	"Full-Stack Software Engineer",
+	"UWaterloo CS & BBA Graduate",
 	"Web Developer",
 	"Board Game Strategist",
 	"Chess Enthusiast",
@@ -21,7 +21,7 @@ const educationList = [
 		imageSrc: "images/resume/WLU.jpeg",
 		years: "Sept 2019 - Aug 2024",
 		courses:
-			"Finanial Management, Microeconomics, Macroeconomics, Managerial Accounting, Options Futures & Swaps, Business Law, Operations, Business Policy",
+			"Financial Markets, Microeconomics, Macroeconomics, Finance, Managerial Accounting, Options Futures & Swaps, Business Law, Operations, Business Policy",
 	},
 ];
 

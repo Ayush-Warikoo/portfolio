@@ -9,8 +9,8 @@ import { getAge } from "./helper";
 
 const aboutItemsLeft = [
 	{ label: "Location", text: "Toronto, ON, Canada", Icon: LocationOnRoundedIcon },
-	{ label: "Study", text: "University of Waterloo", Icon: SchoolRoundedIcon },
-	{ label: "Phone", text: "(647)-527-1409", Icon: PhoneIphoneRoundedIcon },
+	{ label: "Undergrad", text: "University of Waterloo", Icon: SchoolRoundedIcon },
+	{ label: "Phone", text: "(647) - 527 - 1409", Icon: PhoneIphoneRoundedIcon },
 ];
 
 const aboutItemsRight = [
@@ -30,10 +30,9 @@ function About() {
 				<div className="nine columns main-col">
 					<h2>Hi! I'm Ayush Warikoo.</h2>
 					<p>
-						I am a 5th-year University of Waterloo Computer Science and Business double
-						degree student, graduating in Summer 2024. My expertise from past
-						internships and projects is in full-stack web development, primarily using
-						JavaScript, Python and Java; though I’m passionate about software
+						I graduated from the University of Waterloo with a double degree in CS & BBA.
+						My expertise from past internships and projects is in full-stack web development,
+						primarily using JavaScript, Python and Java; though I’m passionate about software
 						development as a whole. Previously I've completed SWE internships at Amazon
 						(AWS), Zanbato, NextRoll and Autodesk. I like to approach problems by
 						thinking about what would generate the most value, with a strong emphasis on
